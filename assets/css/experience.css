@@ -99,7 +99,29 @@ section > div {
 .my_experience {
   color: #4e00bb;
 }
-
+.img-experience {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: var(--atom-size);
+  height: var(--atom-size);
+  /* animation: 8s atom infinite cubic-bezier(1, 0.25, 0, 0.75); */
+  background-image: url("../images/img-experience.gif");
+  background-size: cover;
+  border-radius: 100%;
+  filter: contrast(175%);
+  box-shadow: 1px -1px 0px 5px rgba(124, 0, 247, 1);
+  -webkit-box-shadow: 1px -1px 0px 5px rgba(124, 0, 247, 1);
+  -moz-box-shadow: 1px -1px 0px 5px rgba(124, 0, 247, 1);
+}
+.div-img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-card {
+  height: auto;
+}
 .sub-heading {
   font-size: 17px;
   margin-top: 20px;
@@ -327,7 +349,7 @@ ul ol {
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: #4c8bf5;
+  background: #2e0264;
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -359,8 +381,6 @@ ul ol {
 
 .volunteerCard {
   border-radius: 10px;
-  box-shadow: 0px 8px #093b8f, 0 6px 20px 0 rgba(0, 0, 0, 0.19),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   animation: 0.5s ease-out 0s 1 slideInFromLeft;
 
@@ -374,10 +394,10 @@ ul ol {
 
 .page-content {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-evenly;
   align-items: center;
-  grid-gap: 5rem;
+  grid-gap: 1rem;
   padding: 2rem;
   max-width: 1124px;
   margin: 0 auto;
@@ -665,7 +685,7 @@ ul ol {
   text-align: center;
   letter-spacing: 1px;
 }
-.blog-slider__button:hover{
+.blog-slider__button:hover {
   color: white !important;
 }
 a:link {
