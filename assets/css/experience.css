@@ -393,14 +393,14 @@ ul ol {
 }
 
 .page-content {
-  display: flex;
+  /* display: flex; */
   /* flex-wrap: wrap; */
-  justify-content: space-evenly;
+  /* justify-content: space-evenly;
   align-items: center;
   grid-gap: 1rem;
   padding: 2rem;
   max-width: 1124px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .page-content .card:hover {

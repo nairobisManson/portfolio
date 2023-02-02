@@ -505,6 +505,7 @@ html[light-mode="light"] .navbar-brand:hover {
 /* Also have a look at the scroll to top button if changing footer's height (below upArrow in app.js) */
 
 .footer {
+  margin-top: 100px;
   padding-top: 10px;
   font-family: "Poppins", sans-serif;
   background-color: #121212;

@@ -25,9 +25,8 @@ let header = $(`
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
+   
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -113,11 +112,8 @@ let footer = $(`
 <footer class="footer sticky-bottom"  style="background-color:#03000a;">
   <div class="p-4">
     <div class="container-fluid quote-container">
-      <div class="quotes"    style="text-align:center;">
-      <!--SVG code for quote-left icon-->
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.5em" height="1.5em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M7 21a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2L7 13a4 4 0 1 1 0 8zm10 0a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2l-2 10a4 4 0 1 1 0 8z" fill="#fff" fill-rule="evenodd"/></svg>
-      </div>
-      <p class="tag" >Desarrolla la pasión por aprender. Si lo haces, nunca dejarás de crecer.</p>
+     
+      <p class="tag" >"Empathy is at the heart of design. without understanding what others see, feel and experience, design is a useless task" - Tim Brown</p>
     </div>
 
     
@@ -133,7 +129,7 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
           <div class="form-style-6">
              <div class="form-header">
-                <h6 class="display">Contacto</h6>
+                <h6 class="display">Contact</h6>
               </div>
                 <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>

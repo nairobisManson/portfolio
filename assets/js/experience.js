@@ -30,7 +30,7 @@ const exp = [
     cardImage: "assets/images/experience-page/proyectographic.png",
     place: "Proyecto Graphics - Freelancer",
     time: "(Dec, 2022 - Jan, 2022)",
-    desp: "<li>Creation and design of poster and catalog for a japanese food company, I had the great opportunity to work with this excellent company and collaborate with the promotion of their brand and corporate identity highlighting the concept of the wide variety of menu and specialization in ramen.",
+    desp: "<li>I had the privilege of designing posters and catalogs for a Japanese food company. I was able to work with this outstanding firm and support the advancement of their brand and image, emphasizing the wide range of menu offerings and their expertise in ramen.",
   },
 ];
 
@@ -73,26 +73,32 @@ const volunteershipcards = [
   {
     title: "Photoshop",
     cardImage: "assets/images/experience-page/1.jpg",
-    description:
-      "",
+    description: "",
   },
   {
     title: "Ilustrator",
     cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "",
+    description: "",
   },
   {
     title: "Canva",
     cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "",
+    description: "",
   },
   {
     title: "InDesign",
     cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "",
+    description: "",
+  },
+  {
+    title: "After Effects",
+    cardImage: "assets/images/experience-page/5.jpg",
+    description: "",
+  },
+  {
+    title: "Capcut",
+    cardImage: "assets/images/experience-page/6.jpg",
+    description: "",
   },
 ];
 
@@ -100,15 +106,18 @@ const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="width:400px">
+      (output += `
       
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+      
+      <div class="col-sm" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="width:400px; ">
+      
+      <img src="${cardImage}"  width="65" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle" style="color:#fff">${title}</h2><br>
-          <p class="">${description}</p></div>
+      </div>
       
       </div>
+      
       `)
   );
   volunteership.innerHTML = output;
