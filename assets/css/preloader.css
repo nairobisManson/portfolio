@@ -29,6 +29,7 @@
   align-items: center;
   z-index: 999999;
   color: white;
+  text-align: center;
 }
 
 /* Atom */
@@ -42,7 +43,9 @@
   animation: 8s atom infinite cubic-bezier(1, 0.25, 0, 0.75);
 }
 .face-psicodelic {
+  text-align: center;
   position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: var(--atom-size);
