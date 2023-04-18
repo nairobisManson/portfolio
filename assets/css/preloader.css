@@ -5,7 +5,7 @@
 }
 
 :root {
-  --atom-size: 400px;
+  --atom-size: 200px;
   --atom-color-hex: #0d00ff;
   --atom-color-rgb: 217, 217, 217;
   --nucleus-size: calc(var(--atom-size) / 5);
